@@ -38,7 +38,7 @@ const businessAreas = [
 const partners = [
   "NAVER", "KAKAO", "GOOGLE", "META", "OZHEAN", "한화제약(주)", 
   "명성국제특허법률사무소", "mongdeis", "참다한", "BANOBAGI", "Huit Spa", "Milkyyo", 
-  "MANNAHOLIC", "새dl플란트 치과의원", "RADICELL", "QUEENSPARK", "hushhu", "미소유성형외과", 
+  "MANNAHOLIC", "새이플란트", "RADICELL", "QUEENSPARK", "hushhu", "미소유성형외과", 
   "UBA 성형외과 의원", "godo:", "HERAMOND", "G.MAD", "해든한의원", "tenzero", 
   "임팩트비뇨기과", "카이성형외과·피부과", "ElishaCoy", "한호전", "MATTRESS WMDK", 
   "더작", "추닥터스", "송파 고운빛산부인과의원", "Espace Gem", "법무법인동주", 
