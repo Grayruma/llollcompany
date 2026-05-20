@@ -36,9 +36,14 @@ const businessAreas = [
 ];
 
 const partners = [
-  "SAMSUNG", "LG", "HYUNDAI", "NAVER", "KAKAO", "GOOGLE", "META", "AMAZON", "APPLE", "MICROSOFT", "OZHEAN", "한화제약(주)", "명성국제특허법률사무소", "mongweis", "참다한", "BANOBAGI", "Huit Spa", "Milkyyo", "MANNAHOLIC", "새아플란트 치과의원", "RADICELL", "QUEENSPARK", "hushhu", "미소기생명외과",
-  "UBA 성형외과 의원", "godo:", "HERAMOND", "G.MAD", "애든한의원", "tenzero", "임팩트비뇨기과", "카이성형외과·피부과", "ElishaCoy", "한호성형외과의원", "MATTRESS WMDK", "더작", "추닥터스", "송파 고운빛산부인과의원", "Espace Gem" 
-  ];
+  "NAVER", "KAKAO", "GOOGLE", "META", "OZHEAN", "한화제약(주)", 
+  "명성국제특허법률사무소", "mongdeis", "참다한", "BANOBAGI", "Huit Spa", "Milkyyo", 
+  "MANNAHOLIC", "새dl플란트 치과의원", "RADICELL", "QUEENSPARK", "hushhu", "미소유성형외과", 
+  "UBA 성형외과 의원", "godo:", "HERAMOND", "G.MAD", "해든한의원", "tenzero", 
+  "임팩트비뇨기과", "카이성형외과·피부과", "ElishaCoy", "한호전", "MATTRESS WMDK", 
+  "더작", "추닥터스", "송파 고운빛산부인과의원", "Espace Gem", "법무법인동주", 
+  "닥터송포유의원", "연세힐치과"
+];
 
 const galleryVideos = [
   { id: 1, thumbnail: 'https://img.youtube.com/vi/KSIUugT4Gvw/maxresdefault.jpg', url: 'https://www.youtube.com/embed/KSIUugT4Gvw?autoplay=1' },
@@ -429,7 +434,7 @@ export default function App() {
                 유튜브를 통해 미리 원장님을<br />
                 만나 보고
               </span><br />
-              병원을 결정합니다.
+              병원을 결정합니다
             </h2>
           </div>
         </motion.div>
@@ -439,12 +444,12 @@ export default function App() {
       <section id="contact-us" className="py-24 md:py-32 bg-slate-900 text-white px-6 md:px-12">
         <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
           <h2 className="text-sm font-bold text-blue-400 tracking-widest uppercase mb-4">Contact Us</h2>
-          <h3 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-8">Let's build something great together.</h3>
+          <h3 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-8">Let's build something great together</h3>
           
           <div className="space-y-4 mt-4 mb-16 flex flex-col items-center">
             <div className="flex items-center text-slate-300">
               <Mail className="mr-3 text-blue-400" size={20} />
-              <span>lloll@lloll.kr</span>
+              <span>thvksrms@naver.com</span>
             </div>
             <div className="flex items-center text-slate-300">
               <Phone className="mr-3 text-blue-400" size={20} />
